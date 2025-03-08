@@ -51,11 +51,11 @@ function Get-FullOUPath {
 function Create-User {
     $firstName = Read-Host "Digite o primeiro nome do usuario: "
     $lastName = Read-Host "Digite o sobrenome do usuario: "
-    $matricula = Read-Host "Digite a matricula Vilma: "
+    $matricula = Read-Host "Digite a matricula JAPAEMPRESA: "
     $centroCusto = Read-Host "Digite o centro de custo: "
-    $cargo = Read-Host "Digite o cargo na Vilma: "
+    $cargo = Read-Host "Digite o cargo na JAPAEMPRESA: "
     $ramal = Read-Host "Digite o ramal: "
-    $email = Read-Host "Digite o e-mail Vilma: "
+    $email = Read-Host "Digite o e-mail JAPAEMPRESA: "
     $username = Read-Host "Digite o nome de usuario (login): "
     $password = Read-Host "Digite a senha: " -AsSecureString
     $setor = Read-Host "Digite o setor (ex: T.I, RH, Financeiro): "
