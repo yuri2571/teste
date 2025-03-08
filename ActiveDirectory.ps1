@@ -7,7 +7,7 @@ Import-Module ActiveDirectory
 #Digite o dominio respectivo
 $domain = "japa.com.br"
 #Digite sua OU respectiva BASE
-$baseOU = "JAPA"
+$baseOU = "japa.com.br"
 
 function Show-Menu {
     Clear-Host
